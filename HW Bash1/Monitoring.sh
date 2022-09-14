@@ -7,8 +7,8 @@ echo -e \\n
 
 
 MemFree=$(awk '/MemFree/ { printf "%.3f \n", $2/1024/1024 }' /proc/meminfo)
-CPU=$(awk '/vendor_id/ { printf "%.3f \n", $2 }' /proc/cpuinfo)
-echo CPUaaaaaaaaa $CPU
+#CPU=$(awk '/vendor_id/ { printf "%.3f \n", $2 }' /proc/cpuinfo)
+#echo CPU $CPU
 echo Running procces
 ps r
 
@@ -20,7 +20,6 @@ echo -e \\n
 
 
 echo CPU info
-#cat /proc/cpuinfo | grep "model_name"
 echo CPU Load:
 
 top -bn1 | grep "Cpu(s)" | \
