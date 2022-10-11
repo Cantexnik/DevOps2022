@@ -1,0 +1,55 @@
+- name: Install Apache
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install on Debian OS Family
+      block:
+          - name: install Apache on Debian like OS
+            apt: 
+              name: apache2
+              update_cache: yes
+              state: present  
+      
+          - name: UFW Open 80 port on Debian like OS
+            ufw:
+              rule: allow
+              port: 80
+              proto: tcp              
+            notify: restart-apache
+      when: ansible_os_family == "Debian"
+
+    - name: Install Apache on RedHat like OS
+      block:
+          - name: install Apache on on RedHat like OS
+            yum: 
+             name: httpd
+             update_cache: yes
+             state: present
+ 
+          - name: firewalld open 80 port on RedHat like OS
+            firewalld:
+              port: 80/tcp
+              permanent: yes
+              state: enabled              
+            notify: restart-httpd
+      when: ansible_os_family == "RedHat"
+
+    - name: copy index file
+      template:
+        src: "template-index.j2"
+        dest: "/var/www/html/index.html"
+        owner: vagrant
+        # mode: 0777
+
+
+  handlers:
+  - name: restart-apache 
+    service: 
+        name: apache2
+        state: restarted
+
+  - name: restart-httpd
+    service:
+        name: httpd
+        state: restarted
