@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   debian-web:
+    image: myapp-debian-apache
     build: Ubuntu22-04/
     container_name: ubuntu
     ports:
@@ -13,6 +14,7 @@ services:
     restart: unless-stopped
 
   rhel-web:
+    image: myapp-centos-nginix
     build: Centos/
     container_name: centos
     ports:
