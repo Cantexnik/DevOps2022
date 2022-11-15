@@ -1,0 +1,61 @@
+[Sun Nov 13 19:09:19.531392 2022] [ssl:warn] [pid 14:tid 140009962592128] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 13 19:09:19.536912 2022] [ssl:warn] [pid 14:tid 140009962592128] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 19:09:19.537595 2022] [mpm_event:notice] [pid 14:tid 140009962592128] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sun Nov 13 19:09:19.537612 2022] [core:notice] [pid 14:tid 140009962592128] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Nov 13 19:15:12.062259 2022] [ssl:warn] [pid 16:tid 139915358271360] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 13 19:15:12.071188 2022] [ssl:warn] [pid 16:tid 139915358271360] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 19:15:12.073103 2022] [mpm_event:notice] [pid 16:tid 139915358271360] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sun Nov 13 19:15:12.073388 2022] [core:notice] [pid 16:tid 139915358271360] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Nov 13 19:16:45.098189 2022] [ssl:warn] [pid 15:tid 140607302084480] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 13 19:16:45.103853 2022] [ssl:warn] [pid 15:tid 140607302084480] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 19:16:45.104624 2022] [mpm_event:notice] [pid 15:tid 140607302084480] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sun Nov 13 19:16:45.104775 2022] [core:notice] [pid 15:tid 140607302084480] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Nov 13 19:19:02.615157 2022] [ssl:warn] [pid 15:tid 140547370329984] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 13 19:19:02.622347 2022] [ssl:warn] [pid 15:tid 140547370329984] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 19:19:02.623462 2022] [mpm_event:notice] [pid 15:tid 140547370329984] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sun Nov 13 19:19:02.623615 2022] [core:notice] [pid 15:tid 140547370329984] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Nov 13 19:22:03.052296 2022] [ssl:warn] [pid 15:tid 140170904442752] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 13 19:22:03.059204 2022] [ssl:warn] [pid 15:tid 140170904442752] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 19:22:03.060136 2022] [mpm_event:notice] [pid 15:tid 140170904442752] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Sun Nov 13 19:22:03.061326 2022] [core:notice] [pid 15:tid 140170904442752] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 14 11:29:03.115581 2022] [ssl:warn] [pid 8:tid 139636074694528] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 14 11:29:03.125169 2022] [ssl:warn] [pid 8:tid 139636074694528] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Nov 14 11:29:03.125271 2022] [core:warn] [pid 8:tid 139636074694528] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 14 11:29:03.126211 2022] [mpm_event:notice] [pid 8:tid 139636074694528] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Mon Nov 14 11:29:03.126225 2022] [core:notice] [pid 8:tid 139636074694528] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 14 11:32:04.659059 2022] [ssl:warn] [pid 8:tid 140284012472192] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 14 11:32:04.667139 2022] [ssl:warn] [pid 8:tid 140284012472192] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Nov 14 11:32:04.667411 2022] [core:warn] [pid 8:tid 140284012472192] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 14 11:32:04.668350 2022] [mpm_event:notice] [pid 8:tid 140284012472192] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Mon Nov 14 11:32:04.668503 2022] [core:notice] [pid 8:tid 140284012472192] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 14 11:36:59.266108 2022] [ssl:warn] [pid 8:tid 140371073808256] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 14 11:36:59.272778 2022] [ssl:warn] [pid 8:tid 140371073808256] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Nov 14 11:36:59.273057 2022] [core:warn] [pid 8:tid 140371073808256] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 14 11:36:59.273941 2022] [mpm_event:notice] [pid 8:tid 140371073808256] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Mon Nov 14 11:36:59.274102 2022] [core:notice] [pid 8:tid 140371073808256] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 15 11:42:57.482475 2022] [ssl:warn] [pid 8:tid 140305522603904] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 15 11:42:57.491499 2022] [ssl:warn] [pid 8:tid 140305522603904] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Nov 15 11:42:57.491816 2022] [core:warn] [pid 8:tid 140305522603904] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 15 11:42:57.494058 2022] [mpm_event:notice] [pid 8:tid 140305522603904] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Tue Nov 15 11:42:57.494296 2022] [core:notice] [pid 8:tid 140305522603904] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 15 11:54:43.555467 2022] [ssl:warn] [pid 7:tid 139872265213824] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 15 11:54:43.564384 2022] [ssl:warn] [pid 7:tid 139872265213824] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Nov 15 11:54:43.564458 2022] [core:warn] [pid 7:tid 139872265213824] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 15 11:54:43.565253 2022] [mpm_event:notice] [pid 7:tid 139872265213824] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Tue Nov 15 11:54:43.565267 2022] [core:notice] [pid 7:tid 139872265213824] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 15 12:12:50.596577 2022] [ssl:warn] [pid 8:tid 140380071745408] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 15 12:12:50.605837 2022] [ssl:warn] [pid 8:tid 140380071745408] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Nov 15 12:12:50.606883 2022] [core:warn] [pid 8:tid 140380071745408] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 15 12:12:50.608925 2022] [mpm_event:notice] [pid 8:tid 140380071745408] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Tue Nov 15 12:12:50.609483 2022] [core:notice] [pid 8:tid 140380071745408] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
