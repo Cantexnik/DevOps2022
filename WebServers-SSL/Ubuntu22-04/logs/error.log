@@ -59,3 +59,13 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Nov 15 12:12:50.606883 2022] [core:warn] [pid 8:tid 140380071745408] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
 [Tue Nov 15 12:12:50.608925 2022] [mpm_event:notice] [pid 8:tid 140380071745408] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
 [Tue Nov 15 12:12:50.609483 2022] [core:notice] [pid 8:tid 140380071745408] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 17 06:53:04.053020 2022] [ssl:warn] [pid 15:tid 140407573464960] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 17 06:53:04.059438 2022] [ssl:warn] [pid 15:tid 140407573464960] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 17 06:53:04.060295 2022] [mpm_event:notice] [pid 15:tid 140407573464960] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Thu Nov 17 06:53:04.060445 2022] [core:notice] [pid 15:tid 140407573464960] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 17 07:30:30.071705 2022] [ssl:warn] [pid 15:tid 140623846475648] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 17 07:30:30.080989 2022] [ssl:warn] [pid 15:tid 140623846475648] AH01906: test.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 17 07:30:30.082492 2022] [mpm_event:notice] [pid 15:tid 140623846475648] AH00489: Apache/2.4.52 (Ubuntu) OpenSSL/3.0.2 configured -- resuming normal operations
+[Thu Nov 17 07:30:30.083489 2022] [core:notice] [pid 15:tid 140623846475648] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
