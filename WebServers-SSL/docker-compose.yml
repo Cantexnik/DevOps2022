@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  debian-web:
+    image: myapp-debian-apache
+    build: Ubuntu22-04/
+    container_name: ubuntu
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - "./webpages:/opt/apache2/testcom/"
+      - "./Ubuntu22-04/logs:/opt/apache2/logs"
+    restart: unless-stopped
+
+  rhel-web:
+    image: myapp-centos-nginix
+    build: Centos/
+    container_name: centos
+    ports:
+      - '8080:80'
+      - '4434:443'
+    volumes:
+      - "./webpages:/opt/nginx/testcom"
+      - "./Centos/logs:/opt/nginx/logs"
+    restart: unless-stopped
+
+networks:
+  default:
+    driver: bridge
+    name: webnet
