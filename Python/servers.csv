@@ -1,0 +1,9 @@
+hostname,username,password
+VM1,admin1,passwd1
+VM2,admin2,passwd2
+VM3,admin3,passwd3
+VM4,admin4,passwd4
+VM5,admin5,passwd5
+VM6,admin6,passwd6
+VM7,admin7,passwd7
+VM4,admin42,passwd42
