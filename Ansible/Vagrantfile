@@ -1,0 +1,67 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+    config.vm.define "ansible" do |ansible|
+        #ansible.vm.box = "xenial64"
+        ansible.vm.box = "ubuntu2004"
+        ansible.vm.box_check_update = false
+        ansible.vm.hostname = "Host0-ansible"
+        #config.vm.network "public_network", ip: "192.168.100.20"
+        ansible.vm.network "private_network", ip: "192.168.50.20"
+        #    virtualbox__intnet: true
+        ansible.vm.provider "virtualbox" do |vb|
+         vb.memory = "2048"
+         vb.name = "Host0-ansible"
+         vb.cpus = 1
+       end
+       ansible.vm.provision "shell", inline: "echo ========Install ansibleHost========"
+      end
+
+    config.vm.define "ubuntu" do |ubuntu|
+	ubuntu.vm.box = "xenial64"
+    ubuntu.vm.box_check_update = false
+    ubuntu.vm.hostname = "Host1-ubuntu"
+    #config.vm.network "public_network", ip: "192.168.100.21"
+    ubuntu.vm.network "private_network", ip: "192.168.50.21"
+    #    virtualbox__intnet: true
+	ubuntu.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+	 vb.name = "Host1-ubuntu"
+	 vb.cpus = 1
+   end
+   ubuntu.vm.provision "shell", inline: "echo ========Install ubuntu========"
+  end
+
+  config.vm.define "centos" do |centos|
+	centos.vm.box = "centos7"
+    centos.vm.box_check_update = false
+    centos.vm.hostname = "Host2-centos"
+    #centos.vm.network "public_network", ip: "192.168.100.22"
+    centos.vm.network "private_network", ip: "192.168.50.22"
+    #    virtualbox__intnet: true
+	centos.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+	 vb.name = "Host2-centos"
+	 vb.cpus = 1
+   end
+   centos.vm.provision "shell", inline: "echo ========Install centos========"
+  end
+
+  config.vm.define "debian9" do |debian9|
+	debian9.vm.box = "debian9"
+    debian9.vm.box_check_update = false
+    debian9.vm.hostname = "Host3-debian9"
+    #debian9.vm.network "public_network", ip: "192.168.100.23"
+    debian9.vm.network "private_network", ip: "192.168.50.23"
+    #    virtualbox__intnet: true
+	debian9.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+	 vb.name = "Host3-debian9"
+	 vb.cpus = 1
+   end
+   debian9.vm.provision "shell", inline: "echo ========Install debian9========"
+  end
+  
+end
